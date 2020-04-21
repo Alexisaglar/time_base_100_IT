@@ -63,7 +63,7 @@ Drivers/STM32F4xx_HAL_Driver/Src/%.o: ../Drivers/STM32F4xx_HAL_Driver/Src/%.c
 	@echo 'Building file: $<'
 	@echo 'Invoking: MCU GCC Compiler'
 	@echo $(PWD)
-	arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DUSE_HAL_DRIVER -DSTM32F401xE -I"/home/alexisaglar/Drive/MCU2/My_workspace/MasteringMCU2_WS/time_base_100ms_IT/Inc" -I"/home/alexisaglar/Drive/MCU2/My_workspace/MasteringMCU2_WS/time_base_100ms_IT/Drivers/STM32F4xx_HAL_Driver/Inc" -I"/home/alexisaglar/Drive/MCU2/My_workspace/MasteringMCU2_WS/time_base_100ms_IT/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy" -I"/home/alexisaglar/Drive/MCU2/My_workspace/MasteringMCU2_WS/time_base_100ms_IT/Drivers/CMSIS/Device/ST/STM32F4xx/Include" -I"/home/alexisaglar/Drive/MCU2/My_workspace/MasteringMCU2_WS/time_base_100ms_IT/Drivers/CMSIS/Include"  -Og -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" -o "$@" "$<"
+	arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DUSE_HAL_DRIVER -DSTM32F401xE -I"/home/alexisaglar/Drive/MCU2/My_workspace/MasteringMCU2_WS/timer_IC/Inc" -I"/home/alexisaglar/Drive/MCU2/My_workspace/MasteringMCU2_WS/timer_IC/Drivers/STM32F4xx_HAL_Driver/Inc" -I"/home/alexisaglar/Drive/MCU2/My_workspace/MasteringMCU2_WS/timer_IC/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy" -I"/home/alexisaglar/Drive/MCU2/My_workspace/MasteringMCU2_WS/timer_IC/Drivers/CMSIS/Device/ST/STM32F4xx/Include" -I"/home/alexisaglar/Drive/MCU2/My_workspace/MasteringMCU2_WS/timer_IC/Drivers/CMSIS/Include"  -Og -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" -o "$@" "$<"
 	@echo 'Finished building: $<'
 	@echo ' '
 
